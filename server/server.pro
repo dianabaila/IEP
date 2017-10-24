@@ -10,7 +10,9 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    bcm2835_stub.cpp
+    bcm2835_stub.cpp \
+    PinClass.cpp
 
 HEADERS += \
-    bcm2835.h
+    bcm2835.h \
+    PinClass.h
