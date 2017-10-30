@@ -58,6 +58,13 @@ int main(int argc, char **argv)
     bcm2835_delay(500);
     }
     bcm2835_close();
+
+    /**************** lab saptamana 6 PWM*****************/
+
+    Pin *pinPwm = new Pin(PIN,BCM2835_GPIO_FSEL_OUTP,1);
+
+    /************** end lab saptamana 6 PWM***************/
+
     return 0;
 }
 
