@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 
     /**************** lab saptamana 6 PWM*****************/
 
-    Pin *pinPwm = new Pin(PIN,BCM2835_GPIO_FSEL_OUTP,1);
+    Pin *pinPwm = new Pin(PIN,BCM2835_GPIO_FSEL_INPT,1);
 
     /************** end lab saptamana 6 PWM***************/
 

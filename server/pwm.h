@@ -10,7 +10,8 @@ class PWM
 
     public:
         PWM(int freq,int gainFactor);
-        void set(int freq, int gainFactor);
+        void setFr(int freq);
+        void setGain(int gainFactor);
         void increment();
         int getFr();
         int getGain();
